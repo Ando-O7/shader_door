@@ -315,6 +315,7 @@ GameObject:
   - component: {fileID: 53467381}
   - component: {fileID: 53467380}
   - component: {fileID: 53467379}
+  - component: {fileID: 53467382}
   m_Layer: 0
   m_Name: Door_Component_BI3_61
   m_TagString: Untagged
@@ -403,6 +404,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 53467377}
   m_Mesh: {fileID: 4300000, guid: 698b916ca0b2a4c93ab728147373eca6, type: 3}
+--- !u!114 &53467382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 53467377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6941ec02ead994c9b848d640887441f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HitTransform: {fileID: 1286139108}
+  maxRayDistance: 30
+  collisionLayer:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!1 &229804520
 GameObject:
   m_ObjectHideFlags: 0
